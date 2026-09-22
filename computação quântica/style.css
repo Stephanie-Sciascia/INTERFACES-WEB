@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url("fundo.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+    color: white;
+}
+
+
+
+
+nav {
+    background: rgba(2, 24, 45, 0.95);
+
+    padding: 20px;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+
+    text-align: center;
+}
+
+
+nav a {
+    color: #718bff;
+
+    text-decoration: none;
+
+    margin-right: 30px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+nav a:hover {
+    color: #00bfff;
+}
+
+
+
+
+.conteudo {
+    width: 80%;
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding-top: 130px;
+
+    padding-bottom: 60px;
+
+    text-align: left;
+}
+
+
+
+
+h1 {
+    color: #3d61ff;
+
+    font-size: 50px;
+
+    margin-bottom: 40px;
+
+    text-align: left;
+}
+
+
+h2 {
+    color: #00bfff;
+
+    font-size: 30px;
+
+    margin-top: 40px;
+
+    margin-bottom: 25px;
+}
+
+
+
+
+p {
+    font-size: 20px;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+
+    max-width: 1000px;
+
+    text-align: left;
+}
+
+
+strong {
+    color: #00bfff;
+}
+
+
+
+.conteudo ul {
+    padding-left: 35px;
+
+    margin-bottom: 30px;
+}
+
+
+.conteudo ul li {
+    font-size: 20px;
+
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+
+    text-align: left;
+}
+
+
+
+
+.card {
+    background-color: rgba(2, 24, 45, 0.85);
+
+    color: white;
+
+    border: 1px solid #008890;
+
+    border-radius: 10px;
+}
+
+
+.card-title {
+    color: #00bfff;
+}
+
+
+
+.btn-primary {
+    background-color: #00bfff;
+
+    border-color: #00bfff;
+}
+
+
+.btn-primary:hover {
+    background-color: #1e90ff;
+
+    border-color: #1e90ff;
+}
+
+
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px 10px;
+    }
+
+    nav a {
+        margin-right: 10px;
+
+        font-size: 12px;
+    }
+
+    .conteudo {
+        width: 90%;
+
+        padding-top: 120px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .conteudo ul li {
+        font-size: 18px;
+    }
+}
